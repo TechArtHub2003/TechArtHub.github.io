@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column; 
+  min-height: 100vh; 
+  font-family: 'Arial', sans-serif; 
+  background-color: #f4f4f4;
+}
+
+/*SLIDER EVENTOS*/
+.movies {
+  padding: 50px 40px 150px 40px;
+}
+.movies h2{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.swiper{
+  width: 100%;
+}
+.swiper-slide{
+  background-position: center;
+  background-size: cover;
+  width: 250px;
+}
+.swiper-slide img{
+  display: block;
+  width: 100%;
+}
+
+/* <----------------------------------> */
+header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: #faf0e9;
+  color: rgba(0, 0, 0, 0.979); 
+  padding: 15px 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+}
+
+header .logo {
+  width: 120px;
+  height: 60px;
+}
+
+header .nav-menu {
+  display: flex;
+  gap: 20px; /* Espacio entre los elementos de navegación */
+}
+
+header .nav-menu ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header .nav-menu ul li {
+  margin: 0;
+}
+
+header .nav-menu ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+header .nav-menu ul li a:hover {
+  background-color: #495057;
+  color: #f8f9fa;
+}
+
+footer {
+  background-color: #faf0e9;
+  color: rgb(0, 0, 0);
+  padding: 15px 20px;
+  text-align: center;
+  margin-top: auto;
+
+}
